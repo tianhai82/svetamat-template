@@ -3083,7 +3083,7 @@ fsevents@^1.2.7:
     sirv-cli: ^0.4.4
     svelte: ^3.0.0
     svelte-preprocess: ^3.2.0-alpha.2
-    svelte-tailwind-material: ^0.1.2
+    svetamat: ^0.2.2
     tailwindcss: ^1.1.3
     tailwindcss-elevation: ^0.3.3
   peerDependencies:
@@ -3107,19 +3107,21 @@ fsevents@^1.2.7:
   languageName: node
   linkType: hard
 
-"svelte-tailwind-material@npm:^0.1.2":
-  version: 0.1.2
-  resolution: "svelte-tailwind-material@npm:0.1.2"
-  dependencies:
-    sirv-cli: ^0.4.4
-  checksum: 2/b55e835d4e68577627ba74cf277b354aeb69700870419082e3b2ae8798d5162fca99941a21b4176a900134b617318a5f4920c7c9dea49d046554dcdad49f3efc
-  languageName: node
-  linkType: hard
-
 "svelte@npm:^3.0.0":
   version: 3.19.2
   resolution: "svelte@npm:3.19.2"
   checksum: 2/40b57e0ad6f36aa538753884f9e1a2c12e87cc26427d78574aaba30de5b874c49ef4f84925581542e03f4c2364527d5af33228b443ed5f665146c086a5ff9bf2
+  languageName: node
+  linkType: hard
+
+"svetamat@npm:^0.2.2":
+  version: 0.2.2
+  resolution: "svetamat@npm:0.2.2"
+  peerDependencies:
+    svelte: ^3.0.0
+    tailwindcss: ^1.1.3
+    tailwindcss-elevation: ^0.3.3
+  checksum: 2/16505aae833e67f1edae14f293e62910c40fce3ad102b0961d774729b35ef0fdc77f9739c02ec9804648514eeaa25f015552a2b30464d68f84ad7e463a086d3f
   languageName: node
   linkType: hard
 
