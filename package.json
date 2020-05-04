@@ -16,7 +16,7 @@
     "sirv-cli": "^0.4.4",
     "svelte": "^3.0.0",
     "svelte-preprocess": "^3.2.0-alpha.2",
-    "svetamat": "^0.2.2",
+    "svetamat": "^0.3.0",
     "tailwindcss": "^1.1.3",
     "tailwindcss-elevation": "^0.3.3"
   },
@@ -24,6 +24,11 @@
     "svelte": "^3.0.0",
     "tailwindcss": "^1.1.3",
     "tailwindcss-elevation": "^0.3.3"
+  },
+  "dependenciesMeta": {
+    "svetamat": {
+      "unplugged": true
+    }
   },
   "scripts": {
     "build": "rollup -c",
