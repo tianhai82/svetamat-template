@@ -9,7 +9,7 @@
     // Autocomplete,
     NavigationDrawer,
     Dialog
-  } from "svelte-tailwind-material";
+  } from "svetamat";
 
   export let name;
   let visible = false;
