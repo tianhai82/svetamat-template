@@ -1,6 +1,6 @@
-# svelte-tailwindcss-template
+# svetamat-template
 
-This is a fork of Svelte's project template to enable usage of Material UI components built on Tailwindcss. Refer to https://github.com/sveltejs/template for more info.
+This is a fork of Svelte's project template to enable usage of [**Svetamat** - A set of Material UI widgets built on Tailwindcss](https://github.com/tianhai82/svetamat).
 
 To create a new project based on this template using [degit](https://github.com/Rich-Harris/degit):
 
@@ -23,7 +23,7 @@ yarn
 ...then start [Rollup](https://rollupjs.org):
 
 ```bash
-yarn run dev
+yarn dev
 ```
 
 Navigate to [localhost:5000](http://localhost:5000). You should see your app running. Edit a component file in `src`, save it, and reload the page to see your changes.
