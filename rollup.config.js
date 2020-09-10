@@ -1,11 +1,10 @@
 import svelte from 'rollup-plugin-svelte';
 import resolve from '@rollup/plugin-node-resolve';
 import commonjs from '@rollup/plugin-commonjs';
+import serve from 'rollup-plugin-serve'
 import livereload from 'rollup-plugin-livereload';
 import { terser } from 'rollup-plugin-terser';
 import sveltePreprocess from 'svelte-preprocess';
-
-import rollup_start_dev from './rollup_start_dev';
 
 const production = !process.env.ROLLUP_WATCH;
 
@@ -29,6 +28,8 @@ export default {
 			}
 		}),
 
+		typescript({ sourceMap: !production }),
+
 		// If you have external dependencies installed from
 		// npm, you'll most likely need these plugins. In
 		// some cases you'll need additional configuration —
@@ -43,7 +44,7 @@ export default {
 
 		// In dev mode, call `npm run start:dev` once
 		// the bundle has been generated
-		!production && rollup_start_dev,
+		!production && serve({ port: 5000, contentBase: 'public' }),
 
 		// Watch the `public` directory and refresh the
 		// browser on changes when not in production
