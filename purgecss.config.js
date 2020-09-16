@@ -1,7 +1,7 @@
 module.exports = {
-  content: ['./public/index.html', './public/js/*.js'],
-  css: ['./public/css/bundle.css'],
-  output: './public/css/bundle.css',
+  content: ['./public/index.html', './public/*.js'],
+  css: ['./public/bundle.css'],
+  output: './public/bundle.css',
   defaultExtractor: content => {
     const regExp = new RegExp(/[A-Za-z0-9-_:/]+/g);
 

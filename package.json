@@ -9,7 +9,6 @@
     "postcss": "^7.0.21",
     "postcss-load-config": "^2.1.0",
     "purgecss": "^2.3.0",
-    "rimraf": "^3.0.2",
     "rollup": "^2.3.4",
     "rollup-plugin-livereload": "^2.0.0",
     "rollup-plugin-serve": "^1.0.4",
@@ -30,7 +29,7 @@
     "tailwindcss-elevation": "^0.3.3"
   },
   "scripts": {
-    "build": "rimraf public/js && rollup -c && purgecss -c purgecss.config.js",
+    "build": "rollup -c && purgecss -c purgecss.config.js",
     "dev": "rollup -c -w"
   }
 }
