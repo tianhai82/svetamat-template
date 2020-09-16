@@ -29,7 +29,7 @@ export default {
 			}
 		}),
 
-		typescript({ sourceMap: !production }),
+		typescript({ sourceMap: !production, inlineSources: !production }),
 
 		// If you have external dependencies installed from
 		// npm, you'll most likely need these plugins. In

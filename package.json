@@ -20,7 +20,9 @@
     "svetamat": "^0.6.0",
     "tailwindcss": "^1.8.0",
     "tailwindcss-elevation": "^0.3.3",
-    "typescript": "^4.0.2"
+    "typescript": "^4.0.2",
+    "tslib": "^2.0.0",
+    "@tsconfig/svelte": "^1.0.0"
   },
   "peerDependencies": {
     "svelte": "^3.20.0",
